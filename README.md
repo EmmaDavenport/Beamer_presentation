@@ -3,7 +3,8 @@
 `Beamer_presentation_example_plain.tex` simple example of a beamer presentation with corresponding pdf 
 `Beamer_presentation_example.tex` example of a beamer presentation with a number of modifications and the corresponding pdf
 
-
+##Useful resources
+Beamer themes https://www.hartwork.org/beamer-theme-matrix/
 
 ##Settings for sublime
 
