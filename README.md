@@ -18,15 +18,15 @@ Check box for "Check for file changes"
 
 ###LatexTools in sublime
 https://github.com/SublimeText/LaTeXTools  
-`cmd b` build  
-`cmd l` `v` view pdf in skim  
-`cmd shift click` inverse search from pdf in skim to line in sublime  
-`cmd l` `e` create an environment around an argument (similar to autocomplete) e.g. type `itemize` followed by `command l` `e` gives   
+`cmd-b` (i.e. hit the `cmd` and `b` key) to build  
+`cmd-l` then `v` to view pdf in skim  
+`cmd-shift-click` where `click` is a mouse click to inverse search from pdf in skim to line in sublime  
+`cmd-l` then `e` to create an environment around an argument (similar to autocomplete) e.g. type `itemize` followed by `cmd-l` `e` gives   
 ```
 \begin{itemize}
 
 \end{itemize}
 ```
-`cmd l` `c` for commands e.g. 
+`cmd-l`then `c` for commands e.g. 
 
 `\frametitle{}`
