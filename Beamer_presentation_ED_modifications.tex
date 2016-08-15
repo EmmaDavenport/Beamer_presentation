@@ -2,17 +2,8 @@
 %Summary of beamer themes https://www.hartwork.org/beamer-theme-matrix/
 \usetheme{Frankfurt}
 \usecolortheme{whale}
-%Blue on slides is 51,51,178
-%This is quite a dark blue so I have created my own colour
-%For shades, multiply each component by 1/4, 1/2, 3/4, etc. of its previous value, depending on how dark the color should be.
-%For tints, calculate (255 - previous value), multiply that by 1/4, 1/2, 3/4, etc. and add that to the previous value.
-%51+204*0.25 = 102
-%178+77*0.25= 197
-\definecolor{lightblue}{RGB}{102,102,197}
-\setbeamercolor{section in head/foot}{fg=white, bg=lightblue}
-\setbeamercolor{frametitle}{fg=white, bg=lightblue}
-\setbeamercolor{title}{fg=white, bg=lightblue}
-
+\definecolor{blue}{RGB}{51,51,178} %Blue on slides is 51,51,178
+\setbeamercolor{section in head/foot}{fg=white, bg=blue} %Match header with frame title colour
 
 \title{Title of my talk}
 \author{\textbf{Author name} \\ [\baselineskip]
@@ -24,7 +15,7 @@
 
 %\setbeamertemplate{footline}[frame number] %frame number at bottom
 \setbeamertemplate{footline}{} %Nothing in the footer
-\setbeamertemplate{frametitle}[default][center, shadow=false] %Remove shadow from frametitle
+\setbeamertemplate{frametitle}[default][center, shadow=false] %Remove shadow from frametitle and center title
 \beamertemplatenavigationsymbolsempty %Suppress navigation bar
 \setbeamertemplate{itemize items}[circle] %Itemized items use a circle
 \setbeamertemplate{title page}[default][colsep=-4bp,rounded=true] %removes shadow from title page
@@ -34,7 +25,6 @@
 \usepackage{textcomp} %Remove warnings about subsituting fonts Font shape `OMS/lmss/m/n' undefined(Font) using `OMS/cmsy/m/n' instead(Font) for symbol `textbullet'
 
 \usepackage{xcolor} %Change colour of text
-
 \newcommand{\ToDo}[1]{\textcolor{red}{\textsf{\textbf{#1}}}} %Creates a new command that hightlights text in red
 
 \begin{document}
