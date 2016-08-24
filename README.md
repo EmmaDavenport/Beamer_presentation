@@ -1,7 +1,7 @@
 # Beamer_presentation
 ##Files
-`Beamer_presentation_example_plain.tex` simple example of a beamer presentation with corresponding pdf 
-`Beamer_presentation_example.tex` example of a beamer presentation with a number of modifications and the corresponding pdf
+`Beamer_presentation_Frankfurt_whale.tex` simple example of a beamer presentation using the Frankfurt theme and whale colour scheme (with corresponding pdf)
+`Beamer_presentation_ED_modifications.tex` example of a beamer presentation with a number of my modifications and the corresponding pdf
 
 ##Useful resources
 Beamer themes https://www.hartwork.org/beamer-theme-matrix/
